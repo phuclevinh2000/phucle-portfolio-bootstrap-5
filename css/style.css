@@ -1,0 +1,107 @@
+@import "./animation.css";
+
+.home-img.profile{
+    background-color: #f78f8f;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin-top: 40px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    float: right;
+    overflow: hidden;
+}
+
+.btn{
+    background-color: #F76C6C;
+    z-index: 1000;
+}
+/* Nav bar custom */
+.navbar{
+    background-color: #374785;
+    height: 70px;
+    transition: all 1s ease;
+}
+
+.btn.btn-secondary.px-3{
+    color: white;
+}
+
+/* home */
+.home {
+    background-color: #A8D0E6;
+}
+
+/* about */
+.about{
+    background-color: #bcc08b;
+}
+.progress-bar{
+    background-color: #A02C2D;
+}
+
+/* service */
+.services {
+    background-color: #24305E;
+}
+.icon {
+    color: #F8E9A1;
+}
+.service-item{
+    background-color: thistle;
+    transition: 0.4s;
+}
+.service-item:hover{
+    transform: scale(1.1);
+}
+/* latest work */
+.portfolio{
+    background-color: teal;
+}
+.hop{
+    background-color: rgb(226, 224, 224);
+    margin-right: 30px;
+    padding-bottom: 10px;
+    transition: transform .4s;
+}
+.full{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.hover{
+    text-align: center;
+    transition: 0.4s;
+    background-color: #F76C6C;
+}
+.hover:hover {
+    background-color: thistle;
+    color: white;
+}
+.row.liveDemo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+/* .portfolio-item{
+    transition: transform .4s;
+} */
+.hop:hover{
+    transform: scale(1.1);
+}
+/* hire */
+.freelancer-available{
+    background-color:#9B786F;
+}
+
+/* contact */
+.contact-icon{
+    color: #F76C6C;
+}
+.contact{
+    background-color: rgb(202, 199, 199);
+}
+
+
